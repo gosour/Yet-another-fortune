@@ -1,0 +1,19 @@
+/*
+Defines the functions of data.h
+*/
+
+#include "file.h"
+#include<stdio.h>
+
+int file_open_routine()
+{
+	FILE *fp;
+		
+	if((fp=fopen("data/list","r"))==NULL)	
+	{
+		printf("There has been an exception, restart application");
+		return 1;
+	}
+	else
+		return 0;	
+

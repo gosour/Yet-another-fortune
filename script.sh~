@@ -1,0 +1,6 @@
+#! /bin/sh
+echo "Hi"
+make
+rm ./file.o
+rm ./main.o
+rm ./random.o

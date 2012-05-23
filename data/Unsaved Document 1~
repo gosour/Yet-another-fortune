@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int main()
+{
+	FILE *fp;
+	fp=fopen("list","r");
+	char c;
+	c=getc(fp);
+	return 0;
+}

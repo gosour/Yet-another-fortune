@@ -1,0 +1,9 @@
+Yet-another-fortune displays random fortune cookies in your terminal
+It is easy to add your own cookies, just edit the list file and add your stuff in a new line
+If you want automatic startup fo this program add the location of ./bin/main to your .bashrc file
+Things to still do
+	Make the randomization more effective
+	Make seperate subject wise cookies
+	ALlow  user subscriptions
+	Yet another iprovement
+	
